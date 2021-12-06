@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Profile</title>
+        <link rel="stylesheet" href="andres_css.css"/>
+	</head>
+	
+	<body>
+		<div class="main_page">
+		<div class="card", id="card">
+
+		<div class="front_card">
+		<h1>Andres Olvera</h1>
+		<img src="andres.jpg" width="250px" style="border-radius: 25px">
+		<p>My name is Andres Olvera and I'm 23 years old.
+		I'm currently a senior attending the University of Houston - Downtown for a Bachelor's in Computer Science.
+		When I'm not in class I love to play video games, practice the guitar and drums, and play with my dogs.
+		</p>
+		<p><small><br>For more information, click <span onclick="flip()" style="color:red">THIS.</span></small></p>
+		</div>
+
+		<div class="back_card">
+		<h1>Andres Olvera</h1>
+		<p>Favorite Bands</p>
+		<ul>
+			<li>Angels and Airwaves</li>
+			<li>Blink-182</li>
+			<li>Box Car Racer</li>
+
+		<p><br>What do you think about my website?</p>
+		<input type = "text" size = "25" maxlength = "30">
+		<button>Submit</button>
+
+		<p align='center'><small><br>To go back to the front, click <span onclick="flip()" style="color:red">THIS.</span></small></p>
+		</div>
+		</div>
+		</div>
+	</body>
+	
+	<script>
+	function flip(){
+		card.classList.toggle("flip");
+	}
+	</script>
+</html>
